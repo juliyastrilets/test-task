@@ -1,0 +1,21 @@
+block variables
+
+html(lang="ru")
+
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="shortcut icon", href="public/favicon.ico", type="image/x-icon")
+    title= title
+
+  body.main-layout
+
+    //- header
+    header.main-layout__header
+
+    main.main-layout__content.container
+      //- page content
+      block content
+
+    //- footer
+    footer.main-layout__footer

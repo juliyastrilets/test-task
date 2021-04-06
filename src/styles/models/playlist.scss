@@ -1,0 +1,41 @@
+// .playlist {}
+
+.playlist__track {
+  border-bottom: 1px solid #B1BDCD;
+
+  &:first-child {
+    border-top: 1px solid #B1BDCD;
+  }
+}
+
+.track {
+  cursor: pointer;
+  padding: 8px 12px;
+
+  &:not(.track--playing):hover {
+    background: #3D2A40;
+    color: #fff;
+  }
+}
+
+.track--playing {
+  background: #271928;
+  color: #fff;
+}
+
+.track__meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.track__title {
+  padding-right: 8px;
+}
+
+.track__icon {
+  display: flex;
+  align-items: center;
+  width: 12px;
+}
+
+// .track__time {}

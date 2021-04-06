@@ -1,0 +1,20 @@
+// import bootstrap styles
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+}
+
+*, h1, h2, h3, h4, h5, h6, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+body {
+  color: #271928;
+  background: #E7EBF0;
+}

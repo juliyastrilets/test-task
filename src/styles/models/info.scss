@@ -1,0 +1,17 @@
+.release-info {
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.release-info__item {
+  display: flex;
+  font-weight: 500;
+}
+
+.release-info__title {
+  width: 100px;
+  flex-shrink: 0;
+}
+.release-info__value {
+  width: 100%;
+}
