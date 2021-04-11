@@ -7,9 +7,25 @@
     <title>Release statistic</title>
   <script defer src="js/main.js"></script><link href="css/main.css" rel="stylesheet"></head>
   <body class="main-layout">
-    <header class="main-layout__header"></header>
+    <header class="main-layout__header">
+<nav class="menu">
+  <ul class="menu__list">
+    <li class="menu__item"><a class="menu__link transition-colors" href="index.html">Release page</a></li>
+    <li class="menu__item"><a class="menu__link transition-colors" href="statistic.html">Statistic page</a></li>
+  </ul>
+</nav>
+    </header>
     <main class="main-layout__content container">
-      <h2>Statistic page</h2>
+<section class="section">
+  <div class="container">
+    <h2 class="section__title">Linkin Park - In the end</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-6">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
     </main>
     <footer class="main-layout__footer"></footer>
   </body>

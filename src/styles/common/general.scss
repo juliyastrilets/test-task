@@ -18,3 +18,8 @@ body {
   color: #271928;
   background: #E7EBF0;
 }
+
+.transition-colors {
+  transition: all .3s ease-in-out;
+  transition-property: color, background;
+}

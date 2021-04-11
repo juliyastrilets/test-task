@@ -1,0 +1,21 @@
+.section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+  background-blend-mode: soft-light, normal;
+  box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+  border-radius: 8px;
+
+  @media screen and (min-width: 768px) {
+    padding: 32px;
+  }
+}
+
+.section__title {
+  margin-bottom: 12px;
+  font-size: 18px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+}
